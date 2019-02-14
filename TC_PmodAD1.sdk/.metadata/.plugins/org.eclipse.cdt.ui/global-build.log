@@ -1,0 +1,3278 @@
+04:56:34 **** Build of project Lab_2_2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling PmodAD1..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project Lab_2_2 ****
+
+Nothing to build for project Lab_2_2
+04:58:34 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70720	   2580	  23344	  96644	  17984	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+04:58:56 **** Clean-only build of configuration Debug for project Lab_2_2 ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  Lab_2_2.elf.size  Lab_2_2.elf
+' '
+
+****  of configuration Debug for project Lab_2_2 ****
+
+Nothing to build for project Lab_2_2
+04:59:03 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70720	   2580	  23344	  96644	  17984	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:16:15 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:42:1: error: unknown type name 'XGpio'
+ XGpio gpio;
+ ^~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+05:17:59 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70720	   2580	  23360	  96660	  17994	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:20:16 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70720	   2580	  23360	  96660	  17994	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:22:33 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:40:49: error: expected ')' before ';' token
+ #define GPIO_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID;
+                                                 ^
+../src/main.c:67:26: note: in expansion of macro 'GPIO_DEVICE_ID'
+  XGpio_Initialize(&gpio, GPIO_DEVICE_ID);
+                          ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+05:23:08 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71896	   2596	  23360	  97852	  17e3c	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:25:42 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71896	   2596	  23360	  97852	  17e3c	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:36:24 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:61:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  if (Status != XST_SUCCESS)
+  ^~
+../src/main.c:63:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   return XST_FAILURE;
+   ^~~~~~
+../src/main.c:66:26: error: 'GPIO' undeclared (first use in this function)
+  XGpio_SetDataDirection(&GPIO, 1, 0xFF);
+                          ^~~~
+../src/main.c:66:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:79:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+05:36:50 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:61:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  if (Status != XST_SUCCESS)
+  ^~
+../src/main.c:63:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   return XST_FAILURE;
+   ^~~~~~
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:79:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71976	   2596	  23360	  97932	  17e8c	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:37:12 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:81:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72040	   2596	  23360	  97996	  17ecc	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:37:30 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72040	   2596	  23360	  97996	  17ecc	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:42:45 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:10: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   printf(Switches);
+          ^~~~~~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from ../src/main.c:31:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:181:5: note: expected 'const char * restrict' but argument is of type 'u32 {aka long unsigned int}'
+ int _EXFUN(printf, (const char *__restrict, ...)
+     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71992	   2596	  23360	  97948	  17e9c	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:43:15 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:106:10: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   printf(Switches);
+          ^~~~~~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from ../src/main.c:31:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:181:5: note: expected 'const char * restrict' but argument is of type 'u32 {aka long unsigned int}'
+ int _EXFUN(printf, (const char *__restrict, ...)
+     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71992	   2596	  23360	  97948	  17e9c	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:43:18 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:44:43 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:45:53 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:106:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:45:56 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:47:44 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:49:52 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:106:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:50:26 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:50:40 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:51:00 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:56:45 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+05:56:56 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:57:16 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+05:57:55 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+06:01:12 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+06:01:31 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+06:01:54 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+06:02:16 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+06:04:12 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:15:27 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:3: warning: 'Switches' is used uninitialized in this function [-Wuninitialized]
+   printf("%ld\n", Switches);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:15:56 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:16:33 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:17:39 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:18:09 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:18:41 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:19:44 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   printf("%d\n", &Switches);
+           ~^     ~~~~~~~~~
+           %ln
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:19:55 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:20:15 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:20:40 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:21:02 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:21:29 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:22:47 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:23:29 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:24:08 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+../src/main.c:105:3: warning: 'Switches' is used uninitialized in this function [-Wuninitialized]
+   printf("%d\n", Switches);
+   ^~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:24:37 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:24:56 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:25:00 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:105:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:36:25 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:36:54 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:37:11 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:38:08 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:38:31 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:38:47 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:38:58 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+   printf("%d\n", &Switches);
+           ~^     ~~~~~~~~~
+           %ln
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:39:05 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:39:23 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:39:55 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:40:01 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:40:47 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:41:34 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:41:42 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:42:02 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:42:22 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:42:28 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:42:39 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:43:00 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:43:18 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:43:21 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:43:32 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:43:57 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:44:04 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:44:22 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:45:02 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:102:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:52:27 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:102:22: error: invalid type argument of '->' (have 'XGpio {aka struct <anonymous>}')
+   printf("%d\n", gpio->IsDual);
+                      ^~
+../src/main.c:91:6: warning: variable 'Switches' set but not used [-Wunused-but-set-variable]
+  u32 Switches;
+      ^~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:52:44 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:91:6: warning: variable 'Switches' set but not used [-Wunused-but-set-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:52:54 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:53:00 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:57:04 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:91:6: warning: variable 'Switches' set but not used [-Wunused-but-set-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+12:57:15 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:57:40 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:59:37 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:27: error: expected identifier before ')' token
+   printf("%d\n", Switches.);
+                           ^
+../src/main.c:93:6: warning: variable 'Switches' set but not used [-Wunused-but-set-variable]
+  u32 Switches;
+      ^~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:59:58 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:00:02 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:01:00 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:01:11 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:01:29 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:01:45 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:01:47 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:02:08 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:02:22 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:02:55 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:03:02 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:03:24 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:03:46 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:04:07 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:04:17 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:04:35 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:04:45 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:04:48 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:05:06 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:05:32 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71936	   2596	  23360	  97892	  17e64	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:05:38 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:06:02 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:06:36 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:06:41 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:06:52 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:07:40 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:07:49 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:08:32 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:104:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:08:35 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:10:34 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:10:48 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:11:28 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:11:31 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:11:43 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:13:19 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:13:26 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:13:32 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:13:57 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:13:59 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:14:15 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:14:37 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:14:44 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:14:49 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:18:01 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:18:42 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:21:04 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:22:31 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:22:45 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:25:28 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:108:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:27:37 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:28:53 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:30:22 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:108:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:30:34 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:30:51 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:31:20 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:107:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%d\n", Switches);
+           ~^
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72000	   2596	  23360	  97956	  17ea4	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:34:44 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72008	   2596	  23360	  97964	  17eac	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:34:50 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:35:28 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:36:20 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71992	   2596	  23360	  97948	  17e9c	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:36:40 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:38:11 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:38:28 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:38:39 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72008	   2596	  23360	  97964	  17eac	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:38:41 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:38:56 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:39:49 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72188	   2596	  23360	  98144	  17f60	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:39:53 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:40:11 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:51:12 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:130:4: error: expected ';' before '}' token
+    }
+    ^
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:51:15 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72532	   2596	  23360	  98488	  180b8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:51:30 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72532	   2596	  23360	  98488	  180b8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+13:52:44 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72532	   2596	  23360	  98488	  180b8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+14:47:52 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:134:8: warning: unused variable 'averageArray' [-Wunused-variable]
+    int averageArray [1000];
+        ^~~~~~~~~~~~
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72596	   2596	  23360	  98552	  180f8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+14:47:57 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72596	   2596	  23360	  98552	  180f8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:06:00 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72596	   2596	  23360	  98552	  180f8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:06:35 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:07:37 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72596	   2596	  23360	  98552	  180f8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:08:20 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72596	   2596	  23360	  98552	  180f8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:08:27 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:08:43 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:13:10 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72596	   2596	  23360	  98552	  180f8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:13:24 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:13:42 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:15:54 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72596	   2596	  23360	  98552	  180f8	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:15:59 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:94:6: warning: unused variable 'Switches' [-Wunused-variable]
+  u32 Switches;
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72660	   2596	  23360	  98616	  18138	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:16:13 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72660	   2596	  23360	  98616	  18138	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:30:14 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72812	   2596	  23360	  98768	  181d0	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:33:31 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72940	   2596	  23360	  98896	  18250	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:33:44 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:34:03 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:40:30 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72940	   2596	  23360	  98896	  18250	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+15:55:47 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72940	   2596	  23360	  98896	  18250	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+22:36:09 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72964	   2596	  23360	  98920	  18268	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+22:38:35 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:38:48 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:51:05 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:51:26 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72964	   2596	  23360	  98920	  18268	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+22:58:48 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72964	   2596	  23360	  98920	  18268	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+23:01:29 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72812	   2596	  23360	  98768	  181d0	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+23:01:46 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72812	   2596	  23360	  98768	  181d0	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+23:02:09 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:02:25 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:04:13 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:04:30 **** Incremental Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72812	   2596	  23360	  98768	  181d0	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+14:39:39 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73020	   2596	  23360	  98976	  182a0	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+14:45:40 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:46:22 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:115: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:46:38 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:115: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:47:04 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:47:19 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:48:00 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:48:22 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:115: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:49:51 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:50:52 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72184	   2596	  23360	  98140	  17f5c	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+14:51:16 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:51:34 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:118:33: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+    printf("Running RMS: %lf\n", pow((sum / 5.0), 0.5));
+                                 ^~~
+../src/main.c:118:33: warning: incompatible implicit declaration of built-in function 'pow'
+../src/main.c:118:33: note: include '<math.h>' or provide a declaration of 'pow'
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:51:43 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:51:51 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:54:27 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `powf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:54:54 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:55:55 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:57:12 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:118: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+14:57:56 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab_2_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Lab_2_2.elf  |tee "Lab_2_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72184	   2596	  23360	  98140	  17f5c	Lab_2_2.elf
+'Finished building: Lab_2_2.elf.size'
+' '
+14:58:10 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:115: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+15:06:05 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:123: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+15:11:55 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:123: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1
+15:12:04 **** Auto Build of configuration Debug for project Lab_2_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Lab_2_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_2_bsp/ps7_cortexa9_0/lib -o "Lab_2_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoRun':
+C:\Zynq_Book\TC_PmodAD1\TC_PmodAD1.sdk\Lab_2_2\Debug/../src/main.c:123: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2_2.elf] Error 1

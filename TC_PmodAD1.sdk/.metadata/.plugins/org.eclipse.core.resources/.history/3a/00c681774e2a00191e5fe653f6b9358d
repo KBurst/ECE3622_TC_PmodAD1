@@ -1,0 +1,197 @@
+/*************************************************************************/
+/*                                                                       */
+/*     main.c --     PmodAD1 Example Project                             */
+/*                                                                       */
+/*************************************************************************/
+/*     Author: Arthur Brown                                              */
+/*     Copyright 2017, Digilent Inc.                                     */
+/*************************************************************************/
+/*  Module Description:                                                  */
+/*                                                                       */
+/*            This file contains code for running a demonstration of the */
+/*            PmodAD1 when used with the PmodAD1 IP core.              	 */
+/*																		 */
+/*			  This demo initializes the PmodAD1 IP core and then polls   */
+/*			  it's sample register, printing the analog voltage last     */
+/*			  sampled by each of the AD1's two channels over UART.   	 */
+/*																		 */
+/*            Messages printed by this demo can be received by using a   */
+/*			  serial terminal configured with the appropriate baud rate. */
+/*		      115200 for Zynq systems, and whatever the AXI UARTLITE IP  */
+/*			  is configured with for Microblaze systems - typically 9600 */
+/*			  or 115200 baud.											 */
+/*                                                                       */
+/*************************************************************************/
+/*  Revision History:                                                    */
+/*                                                                       */
+/*            08/15/2017(ArtVVB): Created                                */
+/*                                                                       */
+/*************************************************************************/
+
+#include <stdio.h>
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xil_io.h"
+#include "xil_types.h"
+#include "xil_cache.h"
+#include "PmodAD1.h"
+#include "sleep.h"
+
+#define GPIO_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+
+PmodAD1 myDevice;
+XGpio gpio;
+
+const float ReferenceVoltage = 3.3;
+
+void DemoInitialize();
+void DemoRun();
+void DemoCleanup();
+void EnableCaches();
+void DisableCaches();
+
+int main()
+{
+	int Status;
+
+	// Initialize GPIO
+
+	Status = XGpio_Initialize(&gpio, GPIO_DEVICE_ID);
+	if (Status != XST_SUCCESS)
+	{
+		printf("Program has failed");
+		return XST_FAILURE;
+	}
+
+	// Set LEDs direction to outputs
+	XGpio_SetDataDirection(&gpio, 1, 0x00);
+
+	// Set Switch directions to
+	XGpio_SetDataDirection(&gpio, 2, 0xFF);
+
+	DemoInitialize();
+	DemoRun();
+	DemoCleanup();
+	return 0;
+}
+
+void DemoInitialize()
+{
+	EnableCaches();
+
+	// Initializes Pmod
+	AD1_begin(&myDevice, XPAR_PMODAD1_0_AXI_LITE_SAMPLE_BASEADDR);
+
+	//wait for AD1 to finish powering on
+	usleep(1); // 1 us (minimum)
+}
+
+void DemoRun()
+{
+	AD1_RawData RawData;
+	AD1_PhysicalData PhysicalData;
+
+	// XGpio_DiscreteWrite(&gpio, 1, 0x1);
+
+	while (1)
+	{
+		AD1_GetSample (&myDevice, &RawData); // capture raw samples
+		AD1_RawToPhysical(ReferenceVoltage, RawData, &PhysicalData); // convert raw samples into floats scaled to 0 - VDD
+
+		int dataArray [5];
+		int dataArray_2 [5];
+		int sum = 0;
+
+		if(XGpio_DiscreteRead(&gpio, 0x2) == 0)
+		{
+			printf("ECE3622 Lab 2\n");
+			usleep(100000 * 2);	// Done 10x per second initially => usleep(100000 * 2) yields 5x
+		}
+		else if(XGpio_DiscreteRead(&gpio, 0x2) == 1)
+		{
+			if(PhysicalData[0] > 0.8)
+			{
+				XGpio_DiscreteWrite(&gpio, 1, 8);
+			}
+			else if(PhysicalData[0] > 0.6)
+			{
+				XGpio_DiscreteWrite(&gpio, 1, 4);
+			}
+			else if(PhysicalData[0] > 0.4)
+			{
+				XGpio_DiscreteWrite(&gpio, 1, 2);
+			}
+			else if(PhysicalData[0] > 0.2)
+			{
+				XGpio_DiscreteWrite(&gpio, 1, 1);
+			}
+			else if(PhysicalData[0] < 0.1)
+			{
+				XGpio_DiscreteWrite(&gpio, 1, 0);
+				printf("Low voltage input\n");
+				usleep(100000 * 5);
+			}
+		}
+		else if(XGpio_DiscreteRead(&gpio, 0x2) == 2)
+		{
+			for(int i = 0; i < 5; i++)
+			{
+				dataArray[i] = PhysicalData[0];
+				sum += dataArray[i];
+				usleep(100000 * 5);
+			}
+
+			printf("Running average: %f\n", (sum / 5.0));
+
+			dataArray_2[0] = PhysicalData[0];
+			sum = dataArray_2[0];
+			while(1)
+			{
+				for(int i = 1; i < 5; i++)
+				{
+					dataArray_2[i] = dataArray[i - 1];
+				}
+			}
+
+		}
+
+
+		// Switches = XGpio_DiscreteRead(&gpio, 0x2);
+
+		// printf("Input Data 1: %.02f;   ", PhysicalData[0]);
+		// printf("Input Data 2: %.02f\r\n", PhysicalData[1]);
+		// printf("%d\n", Switches);
+
+		// do this 10x per second
+		// usleep(100000 * 2);	// Done 10x per second initially => usleep(100000 * 2) yields 5x
+	}
+}
+
+void DemoCleanup()
+{
+	DisableCaches();
+}
+
+void EnableCaches()
+{
+#ifdef __MICROBLAZE__
+#ifdef XPAR_MICROBLAZE_USE_ICACHE
+    Xil_ICacheEnable();
+#endif
+#ifdef XPAR_MICROBLAZE_USE_DCACHE
+    Xil_DCacheEnable();
+#endif
+#endif
+}
+
+void DisableCaches()
+{
+#ifdef __MICROBLAZE__
+#ifdef XPAR_MICROBLAZE_USE_DCACHE
+	Xil_DCacheDisable();
+#endif
+#ifdef XPAR_MICROBLAZE_USE_ICACHE
+	Xil_ICacheDisable();
+#endif
+#endif
+}
